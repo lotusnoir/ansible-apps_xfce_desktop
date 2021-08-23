@@ -1,0 +1,11 @@
+---
+- name: Set Wallpaper path
+  xfconf:
+    channel: "xfce4-desktop"
+    property: "/backdrop/screen0/monitor0/image-path"
+    value_type: "string"
+    value: "/usr/share/backgrounds/xfce/background-1778383.jpg"
+# become: yes
+# become_user: sudo
+# environment:
+#   DBUS_SESSION_BUS_ADDRESS: "unix:path=/run/user/$UID/bus"

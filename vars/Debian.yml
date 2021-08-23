@@ -1,0 +1,12 @@
+---
+xfce4_packages:
+  - xfce4
+  - task-xfce-desktop
+
+xfce4_login_manager_package: lightdm
+xfce4_login_manager_service: lightdm
+
+xfce4_extra_packages:
+  - gnome-terminal
+  - gnome-icon-theme
+  - xrdp

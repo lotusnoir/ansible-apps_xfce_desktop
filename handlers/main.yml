@@ -1,0 +1,5 @@
+---
+- name: "Restart login manager service"
+  service:
+    name: "{{ xfce4_login_manager_service }}"
+    state: restarted
