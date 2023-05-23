@@ -10,3 +10,4 @@ xfce4_extra_packages:
   - gnome-terminal
   - gnome-icon-theme
   - xrdp
+  - accountsservice
