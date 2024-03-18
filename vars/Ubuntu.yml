@@ -1,4 +1,5 @@
 ---
+
 xfce4_packages:
   - xserver-xorg
   - xfonts-base

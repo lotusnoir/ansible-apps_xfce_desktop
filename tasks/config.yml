@@ -1,6 +1,6 @@
 ---
 - name: Set Wallpaper path
-  xfconf:
+  community.general.xfconf:
     channel: "xfce4-desktop"
     property: "/backdrop/screen0/monitor0/image-path"
     value_type: "string"
